@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="ru-RU" prefix="og: http://ogp.me/ns#">
+<head>
+    <title>Аренда авто KG</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel='stylesheet' href='assets/fonts/stylesheet.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='assets/css/font-awesome.min.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='assets/css/jquery-ui.min.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='assets/css/slick.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='assets/css/intlTelInput.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='assets/css/slick-theme.css' type='text/css' media='all'/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link rel='stylesheet' href='assets/css/style.css' type='text/css' media='all'/>
+    <script type='text/javascript' src='assets/js/jquery-3.3.1.min.js'></script>
+    <link rel="icon" href="assets/images/favicon.png" sizes="32x32"/>
+    <link rel="icon" href="assets/images/favicon.png" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/images/favicon.png"/>
+    <meta name="msapplication-TileImage" content="assets/images/favicon.png"/>
+</head>
+<body class="module_index">
+<header class="containerWrap">
+    <div class="wrap">
+        <div class="burgerBtn"></div>
+        <a href="/" class="logo">
+            <img src="assets/images/logo_ru.png" alt="На главную" title="На главную">
+        </a>
+        <div class="citySelect">
+            <div class="selectedCity">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span>Бишкек</span>
+            </div>
+            <div class="cityList">
+<a class='item' href='https://novosibirsk.bericar.ru/'>Новосибирск</a><a class='item' href='https://barnaul.bericar.ru/'>Барнаул</a><a class='item' href='https://gorno-altaysk.bericar.ru/'>Горно-Алтайск</a><a class='item' href='https://irkutsk.bericar.ru/'>Иркутск</a><a class='item' href='https://moscow.bericar.ru/'>Домодедово</a>            </div>
+        </div>
+        <div class="adress">
+            <div>
+                <a href="/contacts/">Исанова 100, 2-этаж</a>
+                            </div>
+            <div>Каждый день с 10:00 до 19:00 без обеда</div>
+        </div>
+        <div class="whatsapp">
+            <div class="label"><i class="fa fa-mobile" aria-hidden="true"></i><strong>
+Whatsapp / Viber / Telegram            </strong></div>
+            <a href="tel:+996 (779) 80-99-08" class="phone" onclick="yaCounter14066938.reachGoal('phonenumber');return true;"><span>+996 (779) 80-99-08</span></a>
+        </div>
+        <div class="phones">
+
+        </div>
+        <a href="#" class="callme btn" data-popup="call" data-action="Заказать звонок">
+            <i class="fa fa-phone" aria-hidden="true"></i> Заказать звонок        </a>
+        <div class="selectLang">
+            <div class="selectedLang">
+                <span class="ru"></span> <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <div class="langList">
+                <a class="item">
+                    <span class="ru"></span> <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>
+                <a href="l=en" class="item">
+                    <span class="en"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="mainMenu containerWrap">
+    <div class="wrap">
+        <ul class="menu">
+<li><a href='carlist/'>Автомобили</a></li><li><a href='conditions'>Условия проката</a></li><li><a href='price/'>Тарифы</a></li><li><a href='additional_services/'>Услуги</a></li><li><a href='about/'>О компании</a></li><li><a href='reviews/'>Отзывы</a></li><li><a href='news/'>Новости</a></li><li><a href='contacts/'>Контакты</a></li>        </ul>
+        <form role="search" method="post" id="searchform" class="searchform" action="carlist/">
+            <input type="text" value="" placeholder="Поиск по машинам" name="s" id="s" class="s"/>
+            <button type="submit" id="searchsubmit" class="searchsubmit"></button>
+        </form>
+    </div>
+    <div class="close"></div>
+</nav>
+<section class="frontSlider containerWrap">
+    <div class="sliderBlock">
+        <div class="items">
+<div class="item">
+    <img src="uploadf_kgz/sitecontent/ea8afd0ac478ec410c903219dcbce36d/prius.jpg" alt="" title="">
+    <div class="wrap">
+        <div class="message">
+            <div class="text">
+                <div class="heading">"Гибирд" со скидой 10%</div>
+                <div class="desc">до конца зимы</div>
+            </div>
+            <a href='/carlist/class__b/' class='btn'>Эконом класс</a>        </div>
+    </div>
+</div>
+<div class="item">
+    <img src="uploadf_kgz/sitecontent/d433ed7583eef60c3dcd03856b6e4c03/camry.png" alt="" title="">
+    <div class="wrap">
+        <div class="message">
+            <div class="text">
+                <div class="heading">Для понимающих толк</div>
+                <div class="desc">в комфортном вождении</div>
+            </div>
+            <a href='/carlist/class__e/' class='btn'>Бизнес класс</a>        </div>
+    </div>
+</div>
+<div class="item">
+    <img src="uploadf_kgz/sitecontent/449a00874b201bf5d0dfca0b75c59984/car.png" alt="" title="">
+    <div class="wrap">
+        <div class="message">
+            <div class="text">
+                <div class="heading">Путешествие</div>
+                <div class="desc">с нашими авто</div>
+            </div>
+            <a href='/carlist/class__j/' class='btn'>Выбрать кроссовер</a>        </div>
+    </div>
+</div>
+<div class="item">
+    <img src="uploadf_kgz/sitecontent/a1bbfa2bde9d0327cf968c481140525c/car.jpg" alt="" title="">
+    <div class="wrap">
+        <div class="message">
+            <div class="text">
+                <div class="heading">Создать правильное впечатление</div>
+                <div class="desc">для любых целей</div>
+            </div>
+            <a href='carlist/class__f/' class='btn'>Премиум класс</a>        </div>
+    </div>
+</div>
+<div class="item">
+    <img src="uploadf_kgz/sitecontent/28bd4ee9e3358d5b7cd8ba09b5d9a414/hyindai.jpg" alt="" title="">
+    <div class="wrap">
+        <div class="message">
+            <div class="text">
+                <div class="heading">Твое решение</div>
+                <div class="desc">автопрокат ARGET!</div>
+            </div>
+            <a href='carlist/class__c/' class='btn'>Средний класс</a>        </div>
+    </div>
+</div>
+        </div>
+    </div>
+    <div class="form slider_form">
+        <form method="post" action="">
+            <div class="heading">Рассчитать стоимость аренды</div>
+            <div class="inputRow">
+                <div class="errorBox errorBox-1">Выберите модель автомобиля</div>
+                <select name="model">
+                    <option value="">Выберите модель</option>
+<option value='14' data-zalog='3000' data-price1='3300' data-price3='3135' data-price8='2970' data-price20='2805'>Honda CR-V 2008 (голубой)</option><option value='11' data-zalog='3000' data-price1='3800' data-price3='3610' data-price8='3420' data-price20='3230'>Honda CR-V 2014 (белый)</option><option value='15' data-zalog='3000' data-price1='3800' data-price3='3610' data-price8='3420' data-price20='3230'>Toyota 4Runner 2007 (синий)</option><option value='8' data-zalog='3000' data-price1='3800' data-price3='3610' data-price8='3420' data-price20='3230'>Toyota Camry 50 2013 (чёрный)</option><option value='12' data-zalog='3000' data-price1='4300' data-price3='4085' data-price8='3870' data-price20='3655'>Toyota Camry 55 2017 (чёрный)</option><option value='7' data-zalog='3000' data-price1='2300' data-price3='2185' data-price8='2070' data-price20='1955'>Toyota Prius 2012 (серый)</option><option value='9' data-zalog='3000' data-price1='2300' data-price3='2185' data-price8='2070' data-price20='1955'>Toyota Prius 2012 (белый)</option><option value='10' data-zalog='3000' data-price1='2300' data-price3='2185' data-price8='2070' data-price20='1955'>Toyota Prius 2012 (серебристый)</option>                </select>
+            </div>
+            <div class="inputRow">
+                <div class="date">
+                    <div class="start">
+                        <div class="label">Начало</div>
+                        <input type="text" name="start_date" value="2020-02-08" class="datepicker">
+                    </div>
+                    <div class="end">
+                        <div class="label">Окончание</div>
+                        <input type="text" name="end_date" value="2020-02-09" class="datepicker">
+                    </div>
+                </div>
+            </div>
+            <div class="inputRow">
+                <div class="errorBox errorBox-2">Укажите свое имя</div>
+                <input type="text" class="inputText" name="name" placeholder="Имя">
+            </div>
+            <div class="inputRow" style="margin-top: 10px;">
+                <div class="errorBox errorBox-3">Укажите контактный телефон</div>
+                <input type="tel" class="inputText phonemask" name="phone" placeholder="Телефон">
+            </div>
+            <div class="inputRow">
+                <div class="errorBox errorBox-4">Требуется согласие на обработку персональных данных</div>
+                <label class="inputCheckbox">Я согласен на обработку персональных данных                    <input type="checkbox" name="condition">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="price">
+                <div class="label">Стоимость аренды:</div>
+                <div class="value">
+                    <b>0</b> <span>сом</span>
+                </div>
+            </div>
+            <input type="submit" value="Заказать" class="inputSubmit">
+        </form>
+    </div>
+</section>
+
+<section class="frontBlock1 containerWrap">
+    <div class="wrap">
+        <div class="title">Выбрать класс</div>
+        <div class="carsCategoriesBlock">
+            <div class="items">
+<a href="carlist/class__b/index.html" class="item">
+<img src="assets/images/catcarb.png" alt="" title="">
+<span class="heading">Эконом</span>
+</a>
+<a href="carlist/class__c/index.html" class="item">
+<img src="assets/images/catcarc.png" alt="" title="">
+<span class="heading">Средний</span>
+</a>
+<a href="carlist/class__e/index.html" class="item">
+<img src="assets/images/catcare.png" alt="" title="">
+<span class="heading">Бизнес</span>
+</a>
+<a href="carlist/class__f/index.html" class="item">
+<img src="assets/images/catcarj.png" alt="" title="">
+<span class="heading">Кроссовер</span>
+</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="containerWrap frontBlock2">
+    <div class="wrap">
+    <div class="formatBlock"><h1 class="title">Подобрать Автомобиль</h1></div>
+    <div class="filterBlock">
+        <form method="post" action="carlist/">
+            <div class="cols">
+                <div class="col">
+                    <select name="carBrand" id="carBrand">
+                        <option value="-1">Выбор бренда</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Honda">Honda</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select name="carClass" id="carClass">
+                        <option value="-1">Выбор класса</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select name="carType" id="carType">
+                        <option value="-1">Тип кузова</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <input type="hidden" name="filter" value="1">
+                    <input type="submit" value="Подобрать Автомобиль" class="inputSubmit">
+                </div>
+            </div>
+        </form>
+    </div>
+<script>
+    var brandlist = {};
+    brandlist['Toyota'] = {};
+brandlist['Honda'] = {};
+brandlist['Honda']['Кроссовер'] = {};
+brandlist['Honda']['Кроссовер'] = {};
+brandlist['Toyota']['Кроссовер'] = {};
+brandlist['Toyota']['Средний'] = {};
+brandlist['Toyota']['Бизнес'] = {};
+brandlist['Toyota']['Эконом'] = {};
+brandlist['Toyota']['Эконом'] = {};
+brandlist['Toyota']['Эконом'] = {};
+brandlist['Honda']['Кроссовер']['Кроссовер'] = 1;
+brandlist['Honda']['Кроссовер']['Кроссовер'] = 1;
+brandlist['Toyota']['Кроссовер']['Кроссовер'] = 1;
+brandlist['Toyota']['Средний']['Седан'] = 1;
+brandlist['Toyota']['Бизнес']['Седан'] = 1;
+brandlist['Toyota']['Эконом']['Хэтчбек'] = 1;
+brandlist['Toyota']['Эконом']['Хэтчбек'] = 1;
+brandlist['Toyota']['Эконом']['Хэтчбек'] = 1;
+    jQuery(function() {
+        var carBrandId = jQuery('#carBrand').val();
+        var carClassId = -1;
+        var carTypeId = -1;
+        jQuery('#carBrand').on('change', function() {
+            carBrandId = jQuery(this).val();
+            var selectId = '#carClass';
+            unsetSelectData(selectId);
+            if (-1 != carBrandId) {
+                var carClassList = {};
+                for (var k in brandlist[carBrandId])
+                    carClassList[k] = k;
+                setSelectData(selectId, carClassList);
+            }
+        });
+        jQuery('#carClass').on('change', function() {
+            carClassId = jQuery(this).val();
+            var selectId = '#carType';
+            unsetSelectData(selectId);
+            if (-1 != carClassId) {
+                var carTypeList = {};
+                for (var k in brandlist[carBrandId][carClassId])
+                    carTypeList[k] = k;
+                setSelectData(selectId, carTypeList);
+            }
+        }).attr('disabled', true);
+        jQuery('#carType').on('change', function() {
+            carTypeId = jQuery(this).val();
+            if (-1 != carTypeId) {}
+        }).attr('disabled', true);
+
+        jQuery('#carBrand').change();
+        if('' != '-1' && '' != '')
+            jQuery('#carClass').val('').change();
+        if('' != '-1' && '' != '')
+            jQuery('#carType').val('').change();
+    });
+    function setSelectData(selectId, data) {
+        var select = jQuery(selectId);
+        for (var key in data) {
+            select.append('<option value="' + key + '">' + data[key] + '</option>');
+        }
+        select.attr('disabled', false);
+    }
+    function unsetSelectData(selectId) {
+        jQuery(selectId).children('option[value!=-1]').remove();
+        jQuery(selectId).val(-1);
+        jQuery(selectId).attr('disabled', true);
+        jQuery(selectId).change();
+    }
+</script>
+        <div class="carsBlock">
+            <div class="items">
+<div class="item">
+    <a href="cars/toyota_prius__9/index.html" class="img" rel="nofollow">
+        <img src="uploadf_kgz/carsite/6f3c4568fa4d0e6317ac38b744c6343c/a16d4d1e2d1f404d41ba5705a042c9ac.jpg" alt="" title="">
+        <span class="heading">Toyota Prius</span>
+        <span class="info">
+            <ul>
+                <li>
+                  Вариатор                </li>
+                <li>
+                    1800 см<sup>3</sup> / 98 л/с
+                </li>
+                 <li>
+                     5 л. / 100 км
+                </li>
+                 <li>
+                     Привод: передний                </li>
+                 <li>
+                     Белый                </li>
+            </ul>
+        </span>
+    </a>
+    <div class="text">
+        <a href="carlist/class__b/" class="tag">#Эконом</a>
+        <div class="date">Год выпуска: 2012</div>
+        <div class="price">
+            <div class="label">Цена</div>
+            <div class="value">От <span>1955</span> сом/сут</div>
+            <div class="old"></div>
+        </div>
+        <a href="#" class="callme btn" data-popup="req" data-action="9">Заказать</a>
+        <div class='label3'><span>ПОПУЛЯРНЫЙ</span></div>    </div>
+</div>
+<div class="item">
+    <a href="cars/toyota_prius__7/" class="img" rel="nofollow">
+        <img src="uploadf_kgz/carsite/c7dcc29eb20da65e196b80d276fcb32c/98ca9e4245f01618df145d4f3a7bbf12.jpg" alt="" title="">
+        <span class="heading">Toyota Prius</span>
+        <span class="info">
+            <ul>
+                <li>
+                  Вариатор                </li>
+                <li>
+                    1800 см<sup>3</sup> / 120 л/с
+                </li>
+                 <li>
+                     5 л. / 100 км
+                </li>
+                 <li>
+                     Привод: передний                </li>
+                 <li>
+                     Серый                </li>
+            </ul>
+        </span>
+    </a>
+    <div class="text">
+        <a href="carlist/class__b/" class="tag">#Эконом</a>
+        <div class="date">Год выпуска: 2012</div>
+        <div class="price">
+            <div class="label">Цена</div>
+            <div class="value">От <span>1955</span> сом/сут</div>
+            <div class="old"></div>
+        </div>
+        <a href="#" class="callme btn" data-popup="req" data-action="7">Заказать</a>
+            </div>
+</div>
+<div class="item">
+    <a href="cars/toyota_prius__10/" class="img" rel="nofollow">
+        <img src="uploadf_kgz/carsite/6f3c4568fa4d0e6317ac38b744c6343c/a16d4d1e2d1f404d41ba5705a042c9ac.jpg" alt="" title="">
+        <span class="heading">Toyota Prius</span>
+        <span class="info">
+            <ul>
+                <li>
+                  Вариатор                </li>
+                <li>
+                    1800 см<sup>3</sup> / 98 л/с
+                </li>
+                 <li>
+                     5 л. / 100 км
+                </li>
+                 <li>
+                     Привод: передний                </li>
+                 <li>
+                     Серебристый                </li>
+            </ul>
+        </span>
+    </a>
+    <div class="text">
+        <a href="carlist/class__b/" class="tag">#Эконом</a>
+        <div class="date">Год выпуска: 2012</div>
+        <div class="price">
+            <div class="label">Цена</div>
+            <div class="value">От <span>1955</span> сом/сут</div>
+            <div class="old"></div>
+        </div>
+        <a href="#" class="callme btn" data-popup="req" data-action="10">Заказать</a>
+        <div class='label5'><span>СКИДКА 10%</span></div>    </div>
+</div>
+<div class="item">
+    <a href="cars/honda_cr-v__14/" class="img" rel="nofollow">
+        <img src="uploadf_kgz/carsite/44ad4746c2a88740a00d9454048a1954/c87accea05b837103b959770c5a3756d.jpg" alt="" title="">
+        <span class="heading">Honda CR-V</span>
+        <span class="info">
+            <ul>
+                <li>
+                  Автомат                </li>
+                <li>
+                    2354 см<sup>3</sup> /  л/с
+                </li>
+                 <li>
+                     9 л. / 100 км
+                </li>
+                 <li>
+                     Привод: полный                </li>
+                 <li>
+                     Голубой                </li>
+            </ul>
+        </span>
+    </a>
+    <div class="text">
+        <a href="carlist/class__j/" class="tag">#Кроссовер</a>
+        <div class="date">Год выпуска: 2008</div>
+        <div class="price">
+            <div class="label">Цена</div>
+            <div class="value">От <span>2805</span> сом/сут</div>
+            <div class="old"></div>
+        </div>
+        <a href="#" class="callme btn" data-popup="req" data-action="14">Заказать</a>
+            </div>
+</div>
+<div class="item">
+    <a href="cars/honda_cr-v__11/" class="img" rel="nofollow">
+        <img src="uploadf_kgz/carsite/d6fd2d7ff5198f77b3f09f2e30c2d50a/6425d63ccbafb491dbff5c1b5843df3b.jpg" alt="" title="">
+        <span class="heading">Honda CR-V</span>
+        <span class="info">
+            <ul>
+                <li>
+                  Автомат                </li>
+                <li>
+                    2000 см<sup>3</sup> / 150 л/с
+                </li>
+                 <li>
+                     8 л. / 100 км
+                </li>
+                 <li>
+                     Привод: полный                </li>
+                 <li>
+                     Белый                </li>
+            </ul>
+        </span>
+    </a>
+    <div class="text">
+        <a href="carlist/class__j" class="tag">#Кроссовер</a>
+        <div class="date">Год выпуска: 2014</div>
+        <div class="price">
+            <div class="label">Цена</div>
+            <div class="value">От <span>3230</span> сом/сут</div>
+            <div class="old"></div>
+        </div>
+        <a href="#" class="callme btn" data-popup="req" data-action="11">Заказать</a>
+            </div>
+</div>
+<div class="item">
+    <a href="cars/toyota_4runner__15/" class="img" rel="nofollow">
+        <img src="uploadf_kgz/carsite/c41994ba93f93283f5220da7e96972d6/4fc95a893ff484dd31b55c70abb77788.jpg" alt="" title="">
+        <span class="heading">Toyota 4Runner</span>
+        <span class="info">
+            <ul>
+                <li>
+                  Автомат                </li>
+                <li>
+                    3956 см<sup>3</sup> / 236 л/с
+                </li>
+                 <li>
+                     12 л. / 100 км
+                </li>
+                 <li>
+                     Привод: полный                </li>
+                 <li>
+                     Синий                </li>
+            </ul>
+        </span>
+    </a>
+    <div class="text">
+        <a href="carlist/class__j/" class="tag">#Кроссовер</a>
+        <div class="date">Год выпуска: 2007</div>
+        <div class="price">
+            <div class="label">Цена</div>
+            <div class="value">От <span>3230</span> сом/сут</div>
+            <div class="old"></div>
+        </div>
+        <a href="#" class="callme btn" data-popup="req" data-action="15">Заказать</a>
+            </div>
+</div>
+<div class="item">
+    <a href="cars/toyota_camry_50__8/" class="img" rel="nofollow">
+        <img src="uploadf_kgz/carsite/3bee6b2d29588e3929b49306b514fa68/792a92e4d9993de3b008dcdda429166b.jpg" alt="" title="">
+        <span class="heading">Toyota Camry 50</span>
+        <span class="info">
+            <ul>
+                <li>
+                  Автомат                </li>
+                <li>
+                    2.5 см<sup>3</sup> / 180 л/с
+                </li>
+                 <li>
+                     9 л. / 100 км
+                </li>
+                 <li>
+                     Привод: передний                </li>
+                 <li>
+                     Чёрный                </li>
+            </ul>
+        </span>
+    </a>
+    <div class="text">
+        <a href="carlist/class__c/" class="tag">#Средний</a>
+        <div class="date">Год выпуска: 2013</div>
+        <div class="price">
+            <div class="label">Цена</div>
+            <div class="value">От <span>3230</span> сом/сут</div>
+            <div class="old"></div>
+        </div>
+        <a href="#" class="callme btn" data-popup="req" data-action="8">Заказать</a>
+            </div>
+</div>
+<div class="item">
+    <a href="cars/toyota_camry_55__12/" class="img" rel="nofollow">
+        <img src="uploadf_kgz/carsite/f58dad69fddf8a385fe0dbe8f8de2f7c/c6d1606ee0bd30effccf2137c4213733.jpg" alt="" title="">
+        <span class="heading">Toyota Camry 55</span>
+        <span class="info">
+            <ul>
+                <li>
+                  Автомат                </li>
+                <li>
+                    2500 см<sup>3</sup> / 181 л/с
+                </li>
+                 <li>
+                     8 л. / 100 км
+                </li>
+                 <li>
+                     Привод: передний                </li>
+                 <li>
+                     Чёрный                </li>
+            </ul>
+        </span>
+    </a>
+    <div class="text">
+        <a href="carlist/class__e/" class="tag">#Бизнес</a>
+        <div class="date">Год выпуска: 2017</div>
+        <div class="price">
+            <div class="label">Цена</div>
+            <div class="value">От <span>3655</span> сом/сут</div>
+            <div class="old"></div>
+        </div>
+        <a href="#" class="callme btn" data-popup="req" data-action="12">Заказать</a>
+            </div>
+</div>
+            </div>
+        </div>
+<a href='carlist/' class='all_btn'>Все автомобили</a>    </div>
+</section>
+<section class="containerWrap defaultPage page_benefits" >
+    <div class="wrap">
+        <div class="formatBlock">
+            <h1 class='title'>Почему автомобиль выгодно взять в аренду у нас?</h1>            <div class="plusesBlock">
+<div class="items">
+<div class="item">
+<div class="img"><span style="font-family:arial,helvetica,sans-serif;"><img alt="" src="assets/images/plus1.png" title="" /></span></div>
+
+<div class="desc">
+<div class="heading"><span style="font-family:arial,helvetica,sans-serif;">Простая аренда</span></div>
+<span style="font-family:arial,helvetica,sans-serif;">Оформите заявку прямо на сайте</span></div>
+</div>
+
+<div class="item">
+<div class="img"><span style="font-family:arial,helvetica,sans-serif;"><img alt="" src="assets/images/plus2.png" title="" /></span></div>
+
+<div class="desc">
+<div class="heading"><span style="font-family:arial,helvetica,sans-serif;">Безопасные автомобили</span></div>
+<span style="font-family:arial,helvetica,sans-serif;">Новые застрахованные автомобили, своевременное прохождение ТО, защита двигателя у всех автомобилей</span></div>
+</div>
+
+<div class="item">
+<div class="img"><span style="font-family:arial,helvetica,sans-serif;"><img alt="" src="assets/images/plus3.png" title="" /></span></div>
+
+<div class="desc">
+<div class="heading"><span style="font-family:arial,helvetica,sans-serif;">GPS навигатор и детское кресло</span></div>
+<span style="font-family:arial,helvetica,sans-serif;">Бесплатная аренда</span></div>
+</div>
+
+<div class="item">
+<div class="img"><span style="font-family:arial,helvetica,sans-serif;"><img alt="" src="assets/images/plus4.png" title="" /></span></div>
+
+<div class="desc">
+<div class="heading"><span style="font-family:arial,helvetica,sans-serif;">Доставка автомобилей в срок</span></div>
+<span style="font-family:arial,helvetica,sans-serif;">Вам не нужно куда-то ехать</span></div>
+</div>
+
+<div class="item">
+<div class="img"><span style="font-family:arial,helvetica,sans-serif;"><img alt="" src="assets/images/plus5.png" title="" /></span></div>
+
+<div class="desc">
+<div class="heading"><span style="font-family:arial,helvetica,sans-serif;">Мы находимся в разных регионах</span></div>
+<span style="font-family:arial,helvetica,sans-serif;">Возврат автомобиля в любом нашем филиале</span></div>
+</div>
+
+<div class="item">
+<div class="img"><span style="font-family:arial,helvetica,sans-serif;"><img alt="" src="assets/images/plus6.png" title="" /></span></div>
+
+<div class="desc">
+<div class="heading"><span style="font-family:arial,helvetica,sans-serif;">Сигнализация и автопрогрев</span></div>
+<span style="font-family:arial,helvetica,sans-serif;">У всех автомобилей</span></div>
+</div>
+</div>
+</div>
+        </div>
+    </div>
+</section>
+<section class="frontBlock4 containerWrap">
+<div class="wrap">
+<div class="title">
+<div class="title"><strong><span style="font-family: arial, helvetica, sans-serif;">О компании</span></strong></div>
+
+<div class="twoCols">
+<div class="leftCol">
+<div class="textBlock">
+<div class="formatBlock">
+<h3><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 16px;"><strong>Прокат автомобилей &laquo;ARGET&raquo;</strong></span></span></h3>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Современный ритм жизни требует от человека выполнения большого количества повседневных дел. Часто они появляются неожиданно, а время на их выполнение может быть ограничено. Автомобиль значительно экономит время на перемещения по городу, позволяя добраться в пункт назначения быстрее, чем на общественном транспорте. Такое средство передвижения дает комфорт и уверенность.</span></p>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Нет необходимости в покупке личного транспорта, требующего финансовых затрат на обслуживание. Ведь в настоящее время широкую доступность приобрела аренда авто в Бишкеке. Центр &laquo;ARGET&raquo; предоставит машину на любой случай, от рабочих поездок, до торжества. Оценив преимущества передвижения на автомобиле, клиент центра сможет ее в последующем выкупить.</span></p>
+
+<h3><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 16px;"><strong>Как взять машину напрокат?</strong></span></span></h3>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Все, что нужно сделать для оформления аренды - обратиться в центр автопроката&nbsp;&laquo;ARGET&raquo;. Сотрудники центра подберут машину под потребности клиента. В автопарке есть транспортные средства для разных случаев, отвечающие различным требованиям. Для оформления потребуется минимальный набор документов: паспорт и ВУ гражданина РФ. Взять в прокат машину в Бишкеке могут лица старше 23 лет.&nbsp;</span></p>
+
+<p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 16px;"><strong>Когда аренда авто необходима?</strong></span></span></p>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Услуга популярна среди частных лиц, в качестве временной или экстренной меры, например, в командировках, в случае поломки личного авто, так и среди представителей бизнеса, заботящихся об имидже компании, и ценящих безопасность.</span></p>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Ситуации, в которых обращаются за арендой авто:</span></p>
+
+<ul>
+	<li><span style="font-family:arial,helvetica,sans-serif;"><strong>Повседневные дела.</strong> Когда необходимо выполнить большое количество дел за ограниченное время, не обойтись без машины эконом-класса. При желании автомобиль предоставляется с детским креслом и навигатором.</span></li>
+	<li><span style="font-family:arial,helvetica,sans-serif;"><strong>Бизнес-встречи.</strong> Поддержат статус и престиж компании на высоком уровне. Доступна услуга аренды автомобиля в Бишкеке класса люкс с водителем, для встреч делегаций.</span></li>
+	<li><span style="font-family:arial,helvetica,sans-serif;"><strong>Поездки на загородный отдых, пикники на природе.</strong> Автомобили центра обеспечат безопасность всей семьи, сделают комфортными поездки по бездорожью.</span></li>
+	<li><span style="font-family:arial,helvetica,sans-serif;"><strong>Праздники и торжества.</strong> Популярна аренда авто с водителем для свадеб и юбилеев. Обширный парк современных машин позволит учесть все пожелания к классу автомобиля.</span></li>
+</ul>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Воспользоваться прокатом авто в Бишкеке очень легко, оформление займет минимум времени. Результат порадует освободившимся свободным временем, чувствами комфорта и безопасности.&nbsp;</span></p>
+</div>
+</div>
+</div>
+
+<div class="rightCol">
+<div class="textBlock">
+<div class="formatBlock">
+<h3><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 16px;"><strong>Почему арендовать авто нужно у нас?</strong></span></span></h3>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Клиенты, обратившиеся к нам, могут быть уверены в правильности выбора. Центр автопроката&nbsp;&laquo;ARGET&raquo; гарантирует безопасность и надежность перевозок. Транспортные средства нашего авторпарка имеют страховку, полисы КАСКО и ОСАГО. Машина выпускается в прокат только после успешного прохождения техосмотра и заполнения бланка ТО.</span></p>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Получить больше информации и заполнить заявку на аренду, можно на сайте. Здесь же вы найдете:</span></p>
+
+<ul>
+	<li><span style="font-family:arial,helvetica,sans-serif;">Актуальную информацию о свободных машинах.</span></li>
+	<li><span style="font-family:arial,helvetica,sans-serif;">Контактные данные.</span></li>
+	<li><span style="font-family:arial,helvetica,sans-serif;">Условия аренды.</span></li>
+</ul>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">В автопарке центра только свежие автомобили, регулярно проходящие техосмотр. Воспользоваться прокатом автомобилей в Бишкеке легко. Для удобства клиентов, автомобиль доставляется по указанному адресу. После оказания услуги, сотрудники компании явятся за транспортным средством самостоятельно.</span></p>
+
+<h3 id="преимущества-аренды-автомобилей-в-нашей-компании">&nbsp;</h3>
+</div>
+</div>
+</div>
+</div>
+
+<div class="subtitle"><span style="font-family:arial,helvetica,sans-serif;"><strong>Условия проката:</strong></span></div>
+
+<div class="conditionsBlock">
+<div class="items">
+<div class="item">
+<div class="desc"><span style="font-family:arial,helvetica,sans-serif;"><img alt="" src="assets/images/cond1.png" title="" /></span>
+
+<div class="heading"><span style="font-family:arial,helvetica,sans-serif;">Если Вы гражданин РФ</span></div>
+<span style="font-family:arial,helvetica,sans-serif;"> то Вам нужно будет предоставить паспорт и водительское удостоверение.</span></div>
+</div>
+
+<div class="item">
+<div class="desc"><span style="font-family:arial,helvetica,sans-serif;"><img alt="" src="assets/images/cond2.png" title="" /></span>
+
+<div class="heading"><span style="font-family:arial,helvetica,sans-serif;">Если Вы не гражданин РФ</span></div>
+<span style="font-family:arial,helvetica,sans-serif;"> то Вам нужно будет предоставить паспорт, въездную визу или миграционную карту и водительское удостоверение международного образца.</span></div>
+</div>
+
+<div class="item">
+<div class="desc"><span style="font-family: arial, helvetica, sans-serif;"><img alt="" src="assets/images/cond3.png" title="" /></span>
+
+<div class="heading"><span style="font-family: arial, helvetica, sans-serif;">Возраст арендатора от 23&nbsp;лет</span></div>
+</div>
+</div>
+
+<div class="item">
+<div class="desc"><span style="font-family: arial, helvetica, sans-serif;"><img alt="" src="assets/images/cond4.png" title="" /></span>
+
+<div class="heading"><span style="font-family: arial, helvetica, sans-serif;">Стаж вождения от 3-х лет</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="requestBlock containerWrap">
+    <div class="wrap">
+        <div class="text">
+            <div class="heading">Остались вопросы?</div>
+            Наш менеджер перезвонит вам в течении <b>15 минут</b>        </div>
+        <div class="form">
+            <form method="post" action="">
+                <div class="inputBlock">
+                    <div class="inputRow">
+                        <div class="errorBox errorBox-2">Укажите свое имя</div>
+                        <input type="text" class="inputText" name="name" placeholder="Имя">
+                    </div>
+                </div>
+                <div class="inputBlock">
+                    <div class="inputRow">
+                        <div class="errorBox errorBox-3">Укажите контактный телефон</div>
+                        <input type="tel" class="inputText phonemask" name="phone" placeholder="Телефон">
+                    </div>
+                </div>
+                <div class="inputBlock">
+                    <div class="inputRow">
+                        <div class="errorBox errorBox-4">Требуется согласие на обработку персональных данных</div>
+                        <label class="inputCheckbox">Я согласен на обработку персональных данных                            <input type="checkbox" name="condition">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="inputBlock">
+                    <input type="submit" value="Отправить заявку" class="inputSubmit">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="containerWrap">
+    <div class="wrap">
+        <div class="cols">
+            <div class="col col-1">
+                <a href="/" class="logo">
+                    <img src="assets/images/logo2_ru.png" alt="Логотип" title="Логотип">
+                </a>
+                <div class="adress">
+                    <div class="city"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;<span>Бишкек</span>
+                    </div>
+                    <div class="street">Исанова 100, 2-этаж                                        </div>
+                    <a href="mailto:bishkek@bericar.ru" class="email">bishkek@bericar.ru</a>
+                </div>
+                <a href="price.xls" class="download_btn"  onclick="yaCounter14066938.reachGoal('price-list');return true;"><i class="fa fa-list" aria-hidden="true"></i> Скачать прайс</a>
+            </div>
+            <div class="col col-2">
+                <nav>
+                    <ul class="menu">
+<li><a href='about/'>О компании</a></li><li><a href='/reviews/'>Отзывы</a></li><li><a href='/withoutdriver/'>Прокат авто без водителя</a></li><li><a href='/benefits/'>Преимущества</a></li><li><a href='/pravila_prokata/'>Правила проката</a></li>                    </ul>
+                </nav>
+            </div>
+            <div class="col col-3">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="/">Аренда авто</a></li>
+         <li><a href="carlist/class__b/">Эконом</a></li>
+         <li><a href="carlist/class__c/">Средний</a></li>
+         <li><a href="carlist/class__e/">Бизнес</a></li>
+         <li><a href="carlist/class__j/">Кроссовер</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col col-4">
+                <div class="whatsapp">
+                    <div class="label"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;<strong>
+Whatsapp / Viber / Telegram</strong></div>
+                    <a href="tel:+996 (779) 80-99-08" class="phone" onclick="yaCounter14066938.reachGoal('phonenumber');return true;"><span>+996 (779) 80-99-08</span></a>
+                </div>
+                <div class="phones">
+                </div>
+            </div>
+            <div class="col col-5">
+                <a href="#" class="callme btn" data-popup="call" data-action="Заказать звонок">
+                    <i class="fa fa-phone" aria-hidden="true"></i> Заказать звонок                </a>
+                <div class="social">
+                </div>
+            </div>
+            <div class="col col-6">
+                <div class="copyright">© ОсОО "Венко Трэйд Лтд", 2020</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="popup-mask"></div>
+<div class="popup-form popup-call">
+    <div class="topBlock">
+        <div class="heading">Заказать звонок</div>
+        <div class="desc">Заполните свои данные и наши менеджеры свяжутся с вами для заполнения заявки по телефону.</div>
+        <div class="close"></div>
+    </div>
+    <div class="bottomBlock">
+        <form method="post" action="">
+            <div class="cols">
+                <div class="col">
+                    <div class="inputBlock">
+                        <div class="inputRow">
+                            <div class="errorBox errorBox-2">Укажите свое имя</div>
+                            <input type="text" class="inputText" name="name" placeholder="Имя">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBlock">
+                        <div class="inputRow">
+                            <div class="errorBox errorBox-3">Укажите контактный телефон</div>
+                            <input type="tel" class="inputText phonemask" name="phone" placeholder="Телефон">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBlock">
+                        <input type="submit" value="Отправить" class="inputSubmit">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBlock">
+                        <div class="inputRow">
+                            <div class="errorBox errorBox-4">Требуется согласие на обработку персональных данных</div>
+                            <label class="inputCheckbox">Я согласен на обработку персональных данных                                <input type="checkbox" name="condition">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="popup-form popup-req">
+    <div class="topBlock">
+        <div class="heading">Экспресс заявка</div>
+        <div class="desc">Заполните экспресс заявку и наши менеджеры свяжутся с вами для заполнения заявки по телефону.</div>
+        <div class="close"></div>
+    </div>
+    <div class="bottomBlock">
+        <form method="post" action="">
+            <div class="cols">
+                <div class="col">
+                    <div class="inputBlock">
+                        <div class="inputRow">
+                            <div class="errorBox errorBox-2">Укажите свое имя</div>
+                            <input type="text" class="inputText" name="name" placeholder="Имя">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBlock">
+                        <div class="inputRow">
+                            <div class="errorBox errorBox-3">Укажите контактный телефон</div>
+                            <input type="tel" class="inputText phonemask" name="phone" placeholder="Телефон">
+                        </div>
+                    </div>
+                </div>
+                <div class="col big">
+                    <div class="heading">Модель транспортного средства:</div>
+                </div>
+                <div class="col big">
+                    <div class="inputBlock">
+                        <div class="inputRow">
+                            <div class="errorBox errorBox-1">Выберите модель автомобиля</div>
+                            <select name="model">
+                                <option value="">Выберите модель</option>
+<option value='14' data-zalog='3000' data-price1='3300' data-price3='3135' data-price8='2970' data-price20='2805'>Honda CR-V 2008 (голубой)</option><option value='11' data-zalog='3000' data-price1='3800' data-price3='3610' data-price8='3420' data-price20='3230'>Honda CR-V 2014 (белый)</option><option value='15' data-zalog='3000' data-price1='3800' data-price3='3610' data-price8='3420' data-price20='3230'>Toyota 4Runner 2007 (синий)</option><option value='8' data-zalog='3000' data-price1='3800' data-price3='3610' data-price8='3420' data-price20='3230'>Toyota Camry 50 2013 (чёрный)</option><option value='12' data-zalog='3000' data-price1='4300' data-price3='4085' data-price8='3870' data-price20='3655'>Toyota Camry 55 2017 (чёрный)</option><option value='9' data-zalog='3000' data-price1='2300' data-price3='2185' data-price8='2070' data-price20='1955'>Toyota Prius 2012 (белый)</option><option value='7' data-zalog='3000' data-price1='2300' data-price3='2185' data-price8='2070' data-price20='1955'>Toyota Prius 2012 (серый)</option><option value='10' data-zalog='3000' data-price1='2300' data-price3='2185' data-price8='2070' data-price20='1955'>Toyota Prius 2012 (серебристый)</option>                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col big">
+                    <div class="heading">Выберите сроки начала и окончания аренды:</div>
+                </div>
+                <div class="col">
+                    <div class="inputBlock">
+                        <div class="label">Дата начала аренды</div>
+                        <input type="text" name="start_date" value="2020-02-08" class="datepicker">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBlock">
+                        <div class="label">Дата окончания аренды</div>
+                        <input type="text" name="end_date" value="2020-02-09"
+                               class="datepicker">
+                    </div>
+                </div>
+                <div class="col small">
+                    <div class="price">
+                        <div class="label">Стоимость аренды:</div>
+                        <div class="value">
+                            <b>0</b> <span>сом</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col small">
+                    <div class="inputBlock">
+                        <div class="inputRow">
+                            <div class="errorBox errorBox-4">Требуется согласие на обработку персональных данных</div>
+                            <label class="inputCheckbox">Я согласен на обработку персональных данных                                <input type="checkbox" name="condition">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col small">
+                    <div class="inputBlock">
+                        <input type="submit" value="Отправить" class="inputSubmit">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="popup-form popup-success">
+    <div class="topBlock">
+        <div class="heading">Спасибо за заявку!</div>
+        <div class="close"></div>
+    </div>
+    <div class="bottomBlock">
+        <div class="successText">
+            <div class="icon"></div>
+            <div class="heading">Ваш заказ успешно отправлен на обработку.</div>
+            <div class="desc">Ожидайте в ближайшее время с вами свяжется ваш персональный менеджер. Благодарим за выбор нашей компании!</div>
+            <div class="successClose btn">Спасибо</div>
+        </div>
+    </div>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(14066938, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/14066938" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script type='text/javascript' src='assets/js/jquery-ui.min.js'></script>
+<script type='text/javascript' src='assets/js/jquery.malihu.PageScroll2id.js'></script>
+<script type='text/javascript' src='assets/js/intlTelInput.js'></script>
+<script type='text/javascript' src='assets/js/slick.min.js'></script>
+<script type='text/javascript' src='assets/js/common.js?ac=26'></script>
+</body>
+</html>
